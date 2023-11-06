@@ -1,0 +1,4 @@
+﻿3 
+Surface Area – 52.00 
+Lateral Surface Area – 40.00 
+Volume – 24.00

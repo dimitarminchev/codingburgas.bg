@@ -1,0 +1,7 @@
+﻿5 
+Asen Ivanov 65 2200 
+Boiko Borisov 57 3333 
+Ventsislav Ivanov 27 600 
+Asen Harizanoov 44 666.66 
+Boiko Angelov 35 559.4 
+20
