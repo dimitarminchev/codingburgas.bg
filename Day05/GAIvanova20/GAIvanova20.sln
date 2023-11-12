@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxValidator", "BoxValidator\BoxValidator.csproj", "{856C4F71-9872-442E-BBC1-3E6349C34F46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxValidator", "BoxValidator\BoxValidator.csproj", "{856C4F71-9872-442E-BBC1-3E6349C34F46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingValidator", "ShoppingValidator\ShoppingValidator.csproj", "{6A72D051-2E31-4E03-9118-4E4F6F9FFFE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{856C4F71-9872-442E-BBC1-3E6349C34F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{856C4F71-9872-442E-BBC1-3E6349C34F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{856C4F71-9872-442E-BBC1-3E6349C34F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A72D051-2E31-4E03-9118-4E4F6F9FFFE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A72D051-2E31-4E03-9118-4E4F6F9FFFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A72D051-2E31-4E03-9118-4E4F6F9FFFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A72D051-2E31-4E03-9118-4E4F6F9FFFE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

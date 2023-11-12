@@ -1,10 +1,22 @@
 ﻿namespace BoxValidator
 {
-    internal class Program
+    public partial class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            double lenght = double.Parse(Console.ReadLine());
+            double width = double.Parse(Console.ReadLine());
+            double height = double.Parse(Console.ReadLine());
+
+            try
+            {
+                Box box = new Box(width, height, lenght);
+                Console.WriteLine(box);
+            }
+            catch(Exception error) 
+            {
+                Console.WriteLine(error.Message);
+            }
         }
     }
 }
