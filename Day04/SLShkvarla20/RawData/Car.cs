@@ -1,24 +1,18 @@
 ﻿namespace RawData
 {
-    /// <summary>
-    /// Кола
-    /// </summary>
     public class Car
     {
-        public Model model { get; set; }
+        public Engine Engine { get; set; }
+        public Model Model { get; set; }
+        public Load Load { get; set; }
+        public List<Tyres> Tyres { get; set; }
 
-        public Engine engine { get; set; }
-
-        public Load load { get; set; }
-
-        public List<Tyre> tyres { get; set; }
-
-        public Car(Model model, Engine engine, Load load, List<Tyre> tyres)
+        public Car(Engine engine, Model model, Load load, List<Tyres> tyres)
         {
-            this.model = model;
-            this.engine = engine;
-            this.load = load;
-            this.tyres = tyres;
+            this.Engine = engine;
+            this.Model = model;
+            this.Load = load;
+            this.Tyres = tyres;
         }
     }
 }
