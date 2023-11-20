@@ -10,7 +10,7 @@ namespace FootballTeam
             Team team = null;
 
             // Input
-            string[] line = Console.ReadLine().Split(';').ToArray();
+            string[] line = System.Console.ReadLine().Split(';').ToArray();
             while (line[0] != "END")
             {
                 switch (line[0])
@@ -20,10 +20,12 @@ namespace FootballTeam
                         break;
 
                     case "Add":
-                        team.Players.Add(new Player
+                        try
                         {
-                            Name = line[2],
-                            Stats = new Stats
+                            team.Players.Add(new Player
+                            {
+                                Name = line[2],
+                                Stats = new Stats
                             (
                                 int.Parse(line[3]),
                                 int.Parse(line[4]),
@@ -31,7 +33,12 @@ namespace FootballTeam
                                 int.Parse(line[6]),
                                 int.Parse(line[7])
                             )
-                        });
+                            });
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e.Message);
+                        }
                         break;
 
                     case "Remove":
@@ -47,12 +54,10 @@ namespace FootballTeam
                         break;
 
                     case "Rating":
-                        double sum = team.Players.Sum(x => ((x.Stats.Endurance + x.Stats.Sprint + x.Stats.Dribble + x.Stats.Passing + x.Stats.Shooting) / 5.0));
-                        double avr = sum / team.Players.Count();
-                        Console.WriteLine($"{line[1]} - {Math.Round(avr)}");
+                        Console.WriteLine($"{line[1]} - {team.Rating()}");
                         break;
                 }
-                line = Console.ReadLine().Split(';').ToArray();
+                line = System.Console.ReadLine().Split(';').ToArray();
             }
         }
     }

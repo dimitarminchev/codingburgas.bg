@@ -24,8 +24,6 @@ namespace FootballTeam
 
         public List<Player> Players { get; set; }
 
-        public decimal Rating { get; set; }
-
         /// <summary>
         /// Конструктор
         /// </summary>
@@ -35,5 +33,26 @@ namespace FootballTeam
             this.name = name;
             this.Players = new List<Player>();
         }
+
+        /// <summary>
+        /// Рейтинг
+        /// </summary>
+        public int Rating()
+        {
+            if (Players.Count == 0)
+            {
+                return 0;
+            }
+
+            // Сума на всички статистики за всички играчи
+            double sum = Players.Sum(x => (x.Stats.Endurance + x.Stats.Sprint + x.Stats.Dribble + x.Stats.Passing + x.Stats.Shooting) / 5.0);
+           
+            // Средно аритетично получаваме, като раздели сумата на броя на играчите
+            double avr = sum / Players.Count();
+
+            // Връщаме цяло число
+            return (int)Math.Round(avr);
+        }
+
     }
 }
