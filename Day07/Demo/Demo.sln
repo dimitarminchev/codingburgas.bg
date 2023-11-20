@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstAndReserveTeams", "FirstAndReserveTeams\FirstAndReserveTeams.csproj", "{9468CA25-29C1-4011-8918-792BA3874BF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballTeam", "FootballTeam\FootballTeam.csproj", "{C52B0A1D-68BB-4560-9948-F7180E1843B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9468CA25-29C1-4011-8918-792BA3874BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9468CA25-29C1-4011-8918-792BA3874BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9468CA25-29C1-4011-8918-792BA3874BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52B0A1D-68BB-4560-9948-F7180E1843B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52B0A1D-68BB-4560-9948-F7180E1843B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52B0A1D-68BB-4560-9948-F7180E1843B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52B0A1D-68BB-4560-9948-F7180E1843B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
