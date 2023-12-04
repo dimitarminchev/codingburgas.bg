@@ -1,8 +1,8 @@
 # Day 9
-- 1. Превоз на товари (Cargo Transport)
-- 2. Междузвездни войни (StarWars)
-- 3. Междузвездни войни. Империята отвръща на удара (StarWars. Impery Strikes Back)
-- 4. В най-тъмните подземия (Dungeonest Dark)
+1. Превоз на товари (Cargo Transport)
+2. Междузвездни войни (StarWars)
+3. Междузвездни войни. Империята отвръща на удара (StarWars. Impery Strikes Back)
+4. В най-тъмните подземия (Dungeonest Dark)
 
 ## Console.cs
 ```cs
