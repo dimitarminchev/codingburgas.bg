@@ -62,6 +62,19 @@ internal class Program
             line = System.Console.ReadLine();
         }
 
+        Console.WriteLine("Resourses:");
+        foreach (Planet planet in planets)
+        {
+            Console.WriteLine($"{planet.Name} Metal {planet.Metal} Mineral {planet.Mineral}");
+        }
+
+        Console.WriteLine("Building:");
+        foreach (Planet planet in planets)
+        {
+            var count = planet.GroupBy(p => p.Name).Select(g => new { Metric = g.Name, Count = g.Count() });
+            Console.WriteLine($"{planet.Name} Metal {planet.Metal} Mineral {planet.Mineral}");
+        }
+
 
 
     }
