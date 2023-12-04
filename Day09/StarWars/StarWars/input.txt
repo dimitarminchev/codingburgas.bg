@@ -1,0 +1,14 @@
+Alpha 3000 5000 Beta 4000 2500 Mars 5000 200
+MetalMine 1000 200 MineralMine 100 2000
+Transporter 200 300 BattleShip 400 400 Figher 100 100
+Alpha MetalMine 
+Alpha MineralMine
+Beta MetalMine 
+Mars MineralMine
+Mars MetalMine 
+Beta MineralMine
+Alpha Transporter 2
+Alpha Fihter 1000
+Beta BattleShip 4
+Alpha MineralMine
+END
