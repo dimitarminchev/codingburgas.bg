@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetics", "Arithmetics\Arithmetics.csproj", "{8A7BC1B5-1192-4398-B1A3-F13E778D86DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareRootPrecalculator", "SquareRootPrecalculator\SquareRootPrecalculator.csproj", "{21CA6095-0743-44FC-87B3-5817AFB215C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A7BC1B5-1192-4398-B1A3-F13E778D86DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7BC1B5-1192-4398-B1A3-F13E778D86DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7BC1B5-1192-4398-B1A3-F13E778D86DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7BC1B5-1192-4398-B1A3-F13E778D86DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21CA6095-0743-44FC-87B3-5817AFB215C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21CA6095-0743-44FC-87B3-5817AFB215C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21CA6095-0743-44FC-87B3-5817AFB215C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21CA6095-0743-44FC-87B3-5817AFB215C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {681BBC6A-AF18-4267-AE1A-0F6995B4AD84}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+﻿BigTruck=22;Truck=15;LittleTruck=7
+Rock=18;Silk=12;Water=3
+BigTruck Rock
+Truck Water
+Truck Water
+Truck Rock
+LittleTruck Water
+LittleTruck Water
+END
