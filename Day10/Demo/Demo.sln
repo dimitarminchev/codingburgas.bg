@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount", "BankAccount\BankAccount.csproj", "{EEA7B8E0-AABF-41B4-8E34-2AFF54771433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountNunitTests", "BankAccountNunitTests\BankAccountNunitTests.csproj", "{23EEFA5F-B608-4C5B-B9C2-96269DFDB361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountMicrosoftTests", "BankAccountMicrosoftTests\BankAccountMicrosoftTests.csproj", "{D0910D0A-E276-4BF8-AE94-05C4AF2C1A5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skeleton", "Skeleton\Skeleton.csproj", "{82416BCF-F66E-475D-ADE8-09C5FFE00467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkeletonNunitTests", "SkeletonNunitTests\SkeletonNunitTests.csproj", "{5CF71A5A-7638-4E2F-9232-7DF95321C051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkeletonMicrosoftTests", "SkeletonMicrosoftTests\SkeletonMicrosoftTests.csproj", "{6EA7B361-F73D-4C25-A1B9-D5AA39EAD826}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEA7B8E0-AABF-41B4-8E34-2AFF54771433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA7B8E0-AABF-41B4-8E34-2AFF54771433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA7B8E0-AABF-41B4-8E34-2AFF54771433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA7B8E0-AABF-41B4-8E34-2AFF54771433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23EEFA5F-B608-4C5B-B9C2-96269DFDB361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23EEFA5F-B608-4C5B-B9C2-96269DFDB361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23EEFA5F-B608-4C5B-B9C2-96269DFDB361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23EEFA5F-B608-4C5B-B9C2-96269DFDB361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0910D0A-E276-4BF8-AE94-05C4AF2C1A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0910D0A-E276-4BF8-AE94-05C4AF2C1A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0910D0A-E276-4BF8-AE94-05C4AF2C1A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0910D0A-E276-4BF8-AE94-05C4AF2C1A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82416BCF-F66E-475D-ADE8-09C5FFE00467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82416BCF-F66E-475D-ADE8-09C5FFE00467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82416BCF-F66E-475D-ADE8-09C5FFE00467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82416BCF-F66E-475D-ADE8-09C5FFE00467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF71A5A-7638-4E2F-9232-7DF95321C051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF71A5A-7638-4E2F-9232-7DF95321C051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF71A5A-7638-4E2F-9232-7DF95321C051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF71A5A-7638-4E2F-9232-7DF95321C051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA7B361-F73D-4C25-A1B9-D5AA39EAD826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA7B361-F73D-4C25-A1B9-D5AA39EAD826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA7B361-F73D-4C25-A1B9-D5AA39EAD826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA7B361-F73D-4C25-A1B9-D5AA39EAD826}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD756A8E-5503-454B-88DC-45FE5006BE2C}
+	EndGlobalSection
+EndGlobal
