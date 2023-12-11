@@ -17,4 +17,4 @@ public static class Console
 	}
 }
 ```
-_Updated: 12.04.2023_
+_Updated: 04.12.2023_
