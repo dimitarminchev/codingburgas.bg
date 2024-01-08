@@ -14,6 +14,7 @@ namespace MyApp2
                 if (l[i] == l.Length - 1)
                 {
                     Console.Write(l[i] + "/" + l[i + 1]);
+                    break;
                 }
                 Console.Write(l[i] + "/" + l[i+1]+";");
             }
