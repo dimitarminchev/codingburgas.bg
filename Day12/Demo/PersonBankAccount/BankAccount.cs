@@ -1,15 +1,9 @@
 ﻿namespace PersonBankAccount
 {
-	/// <summary>
-	/// Банкова сметка
-	/// </summary>
     public class BankAccount
     {
 		private int id;
 
-		/// <summary>
-		/// Идентификатор
-		/// </summary>
 		public int Id
 		{
 			get { return id; }

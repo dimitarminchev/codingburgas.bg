@@ -7,9 +7,6 @@
     {
 		private string name;
 
-		/// <summary>
-		/// Име
-		/// </summary>
 		public string Name
 		{
 			get { return name; }
@@ -18,9 +15,6 @@
 
 		private int age;
 
-		/// <summary>
-		/// Възраст
-		/// </summary>
 		public int Age
 		{
 			get { return age; }
@@ -29,18 +23,12 @@
 
         private List<BankAccount> accounts = new List<BankAccount>();
 
-		/// <summary>
-		/// Банкови сметки на човечето
-		/// </summary>
         public List<BankAccount> Accounts
         {
             get { return accounts; }
             set { accounts = value; }
         }
 
-		/// <summary>
-		/// Сума на парите по всички сметки
-		/// </summary>
 		public decimal GetBalances()
 		{
 			return accounts.Sum(x => x.Balance);
