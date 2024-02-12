@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayCreator", "ArrayCreator\ArrayCreator.csproj", "{FB5CA356-E964-487D-A2F2-7A019793BA06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scale", "Scale\Scale.csproj", "{3F131CCF-AB85-4F9D-9FF1-E1D51EDBEFB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedList", "AdvancedList\AdvancedList.csproj", "{B9F44E01-5E33-46DD-AB9D-7A64FFF05001}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB5CA356-E964-487D-A2F2-7A019793BA06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5CA356-E964-487D-A2F2-7A019793BA06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5CA356-E964-487D-A2F2-7A019793BA06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5CA356-E964-487D-A2F2-7A019793BA06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F131CCF-AB85-4F9D-9FF1-E1D51EDBEFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F131CCF-AB85-4F9D-9FF1-E1D51EDBEFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F131CCF-AB85-4F9D-9FF1-E1D51EDBEFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F131CCF-AB85-4F9D-9FF1-E1D51EDBEFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F44E01-5E33-46DD-AB9D-7A64FFF05001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F44E01-5E33-46DD-AB9D-7A64FFF05001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F44E01-5E33-46DD-AB9D-7A64FFF05001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F44E01-5E33-46DD-AB9D-7A64FFF05001}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {317E58DE-2FEB-4666-B538-B3FD76FDCB56}
+	EndGlobalSection
+EndGlobal
