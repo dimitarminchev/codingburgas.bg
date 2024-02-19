@@ -1,12 +1,14 @@
-﻿namespace Task3
+﻿namespace AnimalsTask
 {
-    public class Program
+    public partial class Program
     {
         static void Main(string[] args)
         {
             Dog dog = new Dog();
-            dog.Eat ();
+            dog.Eat();
             dog.Bark();
+
+            Console.WriteLine();
 
             Cat cat = new Cat();
             cat.Eat();
