@@ -1,11 +1,11 @@
-﻿namespace Task3
-{
+﻿namespace CatAndDogAsAnimals
+{ 
     public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Dog dog = new Dog();
-            dog.Eat ();
+            dog.Eat();
             dog.Bark();
 
             Cat cat = new Cat();

@@ -1,4 +1,4 @@
-﻿namespace Task1
+﻿namespace DogAsAnimal
 {
     public class Program
     {
