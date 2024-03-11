@@ -1,8 +1,9 @@
-# Day 9
+# Day 09. Допълнителни задачи.
+- 13. Допълнителни задачи
+
+## Решени задачи
 1. Превоз на товари (Cargo Transport)
 2. Междузвездни войни (StarWars)
-3. Междузвездни войни. Империята отвръща на удара (StarWars. Impery Strikes Back)
-4. В най-тъмните подземия (Dungeonest Dark)
 
 ## Console.cs
 ```cs
@@ -17,4 +18,3 @@ public static class Console
 	}
 }
 ```
-_Updated: 04.12.2023_

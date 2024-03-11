@@ -1,4 +1,7 @@
-# Day 7
+﻿# Day 7. Допълнителни задачи
+- 10. Допълнителни задачи
+
+## Решени задачи
 - FirstAndReserveTeams
 - FootballTeam
 
