@@ -1,26 +1,15 @@
 ﻿namespace Figures
 {
-    /// <summary>
-    /// Правоъгълник
-    /// </summary>
     public class Rectangle : IDrawable
     {
         private int Width, Height;
 
-        /// <summary>
-        /// Конструктор
-        /// </summary>
-        /// <param name="w">Широчина</param>
-        /// <param name="h">Височина</param>
-        public Rectangle(int w, int h)
+        public Rectangle(int wid, int hei)
         {
-            Width = w;
-            Height = h;
+            Width = wid;
+            Height = hei;
         }
 
-        /// <summary>
-        /// Рисувай
-        /// </summary>
         public void Draw()
         {
             DrawLine(this.Width, '*', '*');

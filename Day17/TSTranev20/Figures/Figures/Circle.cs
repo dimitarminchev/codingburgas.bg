@@ -1,24 +1,14 @@
 ﻿namespace Figures
 {
-    /// <summary>
-    /// Кръг
-    /// </summary>
     public class Circle : IDrawable
     {
         private int Radius;
 
-        /// <summary>
-        /// Конструктор
-        /// </summary>
-        /// <param name="R">Радиус</param>
         public Circle(int R)
         {
             Radius = R;
         }
 
-        /// <summary>
-        /// Рисувай
-        /// </summary>
         public void Draw()
         {
             double r_in = this.Radius - 0.4;
