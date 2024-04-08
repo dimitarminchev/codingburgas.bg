@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace Library
+namespace Library1
 {
     /// <summary>
     /// Итератор за библиотеката

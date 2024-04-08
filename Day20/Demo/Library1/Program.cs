@@ -1,4 +1,4 @@
-﻿namespace Library
+﻿namespace Library1
 {
     public class Program
     {
