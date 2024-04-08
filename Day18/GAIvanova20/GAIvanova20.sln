@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAIvanova20", "GAIvanova20\GAIvanova20.csproj", "{3188C4C6-BC84-4CF2-8450-81CEDA8B7CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalKingdom", "AnimalKingdom\AnimalKingdom.csproj", "{8192C80D-A467-4D7C-A8C8-2678D8C3AF2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3188C4C6-BC84-4CF2-8450-81CEDA8B7CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3188C4C6-BC84-4CF2-8450-81CEDA8B7CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3188C4C6-BC84-4CF2-8450-81CEDA8B7CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3188C4C6-BC84-4CF2-8450-81CEDA8B7CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8192C80D-A467-4D7C-A8C8-2678D8C3AF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8192C80D-A467-4D7C-A8C8-2678D8C3AF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8192C80D-A467-4D7C-A8C8-2678D8C3AF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8192C80D-A467-4D7C-A8C8-2678D8C3AF2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C9C3FD5-8954-4931-9345-FC6A3B9C3380}
+	EndGlobalSection
+EndGlobal
