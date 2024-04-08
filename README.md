@@ -1,6 +1,8 @@
 # codingburgas.bg
 Курс по "Обектно ориентирано програмиране" за "Професионална гимназия по компютърно програмиране и иновации" Бургас.
 
+[![.NET](https://github.com/dimitarminchev/codingburgas.bg/actions/workflows/dotnet.yml/badge.svg)](https://github.com/dimitarminchev/codingburgas.bg/actions/workflows/dotnet.yml)
+
 - Day 01. Въведение в курса.
 - Day 02. Дефиниране на класове.
 - Day 03. Полета и свойства.
